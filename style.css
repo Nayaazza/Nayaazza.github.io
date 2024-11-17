@@ -1,0 +1,17 @@
+/* Custom Styles */
+.hero {
+    height: 70vh;
+    background: url('istockphoto-1483420270-640x640.jpg') no-repeat center center/cover;
+}
+
+#tentang img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
